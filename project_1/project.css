@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap");
+
+:root {
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9fafb;
+  font-family: "Noto Sans KR", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.container {
+  background-color: #ce9e62;
+  border-radius: 5px;
+  box-shadow: 0 20px 10px #0f1626;
+  width: 400px;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.form {
+  padding: 30px 40px;
+}
+.formControl {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.formControl label {
+  color: #777;
+  display: block;
+  margin-bottom: 5px;
+}
+.formControl input {
+  border: 2px solid;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+span {
+  font-family: "krinkes Decor PERSONAL USE";
+}
+
+.formControl.success input {
+  border-color: var(--success-color);
+}
+.formControl.error input {
+  border-color: var(--error-color);
+}
+
+.formControl small {
+  color: var(--error-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+.formControl.error small {
+  visibility: visible;
+}
+
+.form button {
+  cursor: pointer;
+  background-color: #3498db;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  color: #ffff;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+}

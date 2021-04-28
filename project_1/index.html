@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./project.css" />
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="form">
+        <h2>Register<span>9</span>Here<span>9</span></h2>
+        <div class="formControl">
+          <label for="userName"> Username:</label>
+          <input type="text" id="username" placeholder="Enter Your Username" />
+          <small>Error message </small>
+        </div>
+        <div class="formControl">
+          <label for="Email">Email:</label>
+          <input type="text" id="email" placeholder="Enter Your Email" />
+          <small>Error message </small>
+        </div>
+        <div class="formControl">
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter Your password"
+          />
+          <small>Error message </small>
+        </div>
+        <div class="formControl">
+          <label for="password2"> Password</label>
+          <input
+            type="password"
+            id="password2"
+            placeholder="Confirm your password"
+          />
+          <small>Error message </small><br />
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="./project.js"></script>
+  </body>
+</html>

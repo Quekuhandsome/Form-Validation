@@ -1,0 +1,39 @@
+body {
+  background-color: #141d30;
+}
+
+#heading {
+  background-color: #ce9e62;
+  color: aliceblue;
+  text-align: center;
+  font-style: italic;
+  border-radius: 5px;
+  width: 50%;
+  padding: 5px;
+  margin: auto;
+  position: relative;
+}
+#para1 {
+  text-indent: 20%;
+  line-height: 30px;
+  text-transform: capitalize;
+  font-size: 1.5em;
+  text-justify: right;
+  position: relative;
+}
+.Tble,
+td {
+  left: 0px;
+  background-color: antiquewhite;
+  padding: 20px;
+  border: 1px solid black;
+  text-transform: capitalize;
+}
+
+#date {
+  color: red;
+}
+#frms {
+  position: relative;
+  float: right;
+}
